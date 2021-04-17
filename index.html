@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vezba 1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&family=Montez&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <!-- Header Start -->
+    <header class="main-header">
+        <!-- Destop Start -->
+        <nav class="desktop">
+            <ul class="list-reset">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Display End -->
+
+        <!-- Mobile Start -->
+        <nav class="mobile">
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <!-- Navigation links (hidden by default) -->
+                <div id="links">
+                    <a href="#">Home</a>
+                    <a href="#">Experience</a>
+                    <a href="#">Education</a>
+                    <a href="#">Contact</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="#" class="icon" onclick="displayMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <!-- Mobile End -->
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <div class="main-container clearfix">
+        <!-- Main Title -->
+        <div class="main-title">
+            <div class="main-heading">
+                <a href="#" class="title-link">Curriculum Vitae</a>
+            </div>
+            <div class="main-owner">
+                <p>E. Winters</p>
+            </div>
+        </div>
+        <!-- Main Title End -->
+        <main>
+            <!-- Main Container -->
+            <div class="container-fluid">
+                <div class="wrapp clearfix">
+                    <!-- Main Content -->
+                    <div class="main-content">
+                        <!-- Content -->
+                        <section class="content">
+                            <div class="heading">
+                                <div class="line"></div>
+                                <h3>Evelyn Winters // Event planner</h3>
+                            </div>
+                            <div class="image">
+                                <img src="img/face.jpg" alt="slika">
+                            </div>
+                            <p>
+                                <strong class="info">Phone</strong> 123-456-7890
+                                <br>
+                                <strong class="info">Email</strong> email@example.com
+                                <br>
+                                <strong class="info">Address</strong> 1 Main Street, New York
+                                <br>
+                                <strong class="info">Date of birth</strong> June 10th, 1987
+                            </p>
+                            <p class="info-desc">
+                                <strong>"</strong>
+                                <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere delectus quia nisi
+                                    dolore officiis est vitae quaerat accusantium harum id.</em>
+                                <strong>" - Lewis Carroll, Alice in Wonderland</strong>
+                            </p>
+                        </section>
+                        <!-- Content End -->
+
+                        <!-- About -->
+                        <section class="about">
+                            <div class="line"></div>
+                            <h3>Hi there! I'm Evelyn!</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quibusdam, iure quia
+                                voluptates deleniti id dolorem. Veniam porro magnam, commodi modi dolor consequatur
+                                autem,
+                                officia maiores adipisci quis ex. Minus quia unde officia ducimus neque obcaecati,
+                                explicabo
+                                perspiciatis odio dolor necessitatibus magnam consequuntur corrupti! Consequatur nihil
+                                tempora perferendis explicabo eligendi!</p>
+                        </section>
+                        <!-- About End -->
+
+                        <!-- Regards -->
+                        <section class="regards">
+                            <p>With best beagards.</p>
+
+                            <h2 class="signature">Evelyn</h2>
+                        </section>
+                        <!-- Regards End -->
+                    </div>
+                    <!-- Main Content End -->
+                </div>
+            </div>
+            <!-- Mian Container End -->
+        </main>
+
+        <!-- Aside -->
+        <aside class="aside">
+            <div class="line"></div>
+            <h4>Stay in contact</h4>
+            <div class="socnet clearfix">
+                <div class="soc-net facebook">
+                    <img src="img/facebook.png" alt="facebook">
+                </div>
+                <div class="soc-net instagram">
+                    <img src="img/instagram.png" alt="instagram">
+                </div>
+                <div class="soc-net twitter">
+                    <img src="img/twitter.png" alt="twitter">
+                </div>
+            </div>
+            <div class="create">
+                <h4>Create a website</h4>
+                <p>Everybody can create a website. It'easy.</p>
+                <button class="btn">
+                    Try it for FREE now.
+                    <i class="ion-android-arrow-dropright-circle"></i>
+                </button>
+            </div>
+        </aside>
+        <!-- Aside End -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <!-- Footer Title -->
+        <div class="foot">
+            <div class="footer-title">
+                <h4>Cirriculum Vitae</h4>
+                <p>E. Winters</p>
+            </div>
+            <!-- Footer Title End -->
+            <!-- Footer Counter -->
+            <div class="footer-counter">
+                <div class="counter-left">
+                    <span>Visitors</span>
+                </div>
+                <div class="count counter-right">
+                    <span>0</span>
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                </div>
+            </div>
+            <!-- Footer Counter End -->
+        </div>
+        <div class="site-info">
+            <p>Website was created with simplesite</p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
